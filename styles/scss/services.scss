@@ -1,0 +1,81 @@
+@import './base';
+
+@include headerImage(url("/img/services/1.jpeg"), 50%, 20%);
+
+.sidebar {
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    .sidebar-sticky {
+        top: 8em;
+        position: sticky;
+
+        .nav-link {
+
+            &.active {
+                color: black;
+
+                &:hover {
+                    color: black !important;
+                }
+            }
+
+            &:hover {
+                color: $accentDarkColor !important;
+            }
+        }
+    }
+}
+
+.service {
+    top: 6em;
+
+    .image-section {
+        padding: 0em;
+
+        .img-t {
+            width: 100%;
+            padding: 0em;
+            object-fit: cover;
+            object-position: 0% 100%;
+        }
+
+        .img-b {
+            width: 100%;
+            padding-bottom: 75%;
+            padding: 0em;
+            object-fit: cover;
+        }
+
+        img {
+            height: 85%;
+            width: 85%;
+            object-fit: cover;
+        }
+    }
+
+    .text-section {
+        font-size: 0.96em;
+
+        h4 {
+            text-align: start;
+            padding-bottom: 0.32em;
+        }
+
+        p {
+            line-height: 1.4em;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1880px) {
+    .service {
+        .image-section {
+            img {
+                max-height: 16em;
+                width: 19.55em;
+            }
+        }
+    }
+}

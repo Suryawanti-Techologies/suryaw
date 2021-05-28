@@ -1,0 +1,726 @@
+{
+    "projects": [
+        {
+            "category": "designAndEngineering",
+            "imgFile": "1.jpeg",
+            "capacityValue": 5.6,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Sirohi, Rajasthan",
+            "scope": [
+                "Detailed Design & Engineering"
+            ],
+            "year": "2019-20",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "2.jpeg",
+            "capacityValue": 1.2,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": " Jhansi, U.P.",
+            "scope": [
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "Sun Shine Technocon Pvt. Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "3.jpeg",
+            "capacityValue": 1.2,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Jodhpur, Rajasthan",
+            "scope": [
+                "Topographic and Contour Survey",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2017-18",
+            "client": "Sanjeevani Renewables, Delhi"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "4.jpeg",
+            "capacityValue": 3.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "CHIAL Chandigarh, Punjab",
+            "scope": [
+                "Topographic and Contour Survey of exisiting Plant",
+                "Drainage Layout for Plant"
+            ],
+            "year": "2020-21",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "5.jpeg",
+            "capacityValue": 2.4,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Gr. Noida, Bawal & Chopanki",
+            "scope": [
+                "Detailed Design & Engineering",
+                "Detail Site Survey with TS"
+            ],
+            "year": "2019-20",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "6.jpeg",
+            "capacityValue": 1.7,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "IIT Kanpur, U.P.",
+            "scope": [
+                "Detail Site Survey with TS",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2017-18",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "7.jpeg",
+            "capacityValue": 820.0,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "NIMS Jaipur, Rajasthan",
+            "scope": [
+                "Detailed Design & Engineering",
+                "Detail Site Survey with TS"
+            ],
+            "year": "2018-19",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "8.jpeg",
+            "capacityValue": 14.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Mul Dwarka, Gujrat",
+            "scope": [
+                "Topographic and Contour Survey",
+                "Array with Master Plant Layout"
+            ],
+            "year": "2020-21",
+            "client": "Renew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "9.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "MES Jaipur, Rajasthan",
+            "scope": [
+                "Detail Site Survey ",
+                "Detailed Design & Engineering "
+            ],
+            "year": "2018-19",
+            "client": "Sun Shine Technocon Pvt. Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "10.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "MES Chandigarh, Punjab",
+            "scope": [
+                "Detailed Design & Engineering"
+            ],
+            "year": "2019-20",
+            "client": "Sun Shine Technocon Pvt. Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "11.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "PPCL Bawana, Delhi",
+            "scope": [
+                "Detail Site Survey with TS",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "Sriram Cables Pvt Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "12.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Dhar, H.P.",
+            "scope": [
+                "Topographic and Contour Survey",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "Emicon India Pvt. Ltd., Delhi"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "13.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Moradabad, U.P.",
+            "scope": [
+                "Detail Site Survey with TS",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "AES Noida"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "14.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Lucknow University, U.P.",
+            "scope": [
+                "Detail Site Survey with TS",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "AES Noida"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "15.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Mundra, Gujrat ",
+            "scope": [
+                "Detail Site Survey",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2018-19",
+            "client": "Electro Control Systems, Noida"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "16.jpeg",
+            "capacityValue": 2.4,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Bhilwara, Rajasthan",
+            "scope": [
+                "Detail Site Survey with TS",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2017-18",
+            "client": "Provoltus Energy"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "17.jpeg",
+            "capacityValue": 700,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Dhuri, Punjab",
+            "scope": [
+                "Detail Site Survey",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2020-21",
+            "client": "ProElectric Projects Pvt Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "18.jpeg",
+            "capacityValue": 112,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Carport",
+            "location": "Ludhiana, Punjab",
+            "scope": [
+                "Detail Site Survey",
+                "Detailed Design & Engineering"
+            ],
+            "year": "2017-18",
+            "client": "AMP Solar India"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "19.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Ajmer, Udaipur, and Jodhpur",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout"
+            ],
+            "year": "2017-18",
+            "client": "U-Solar Clean Energy"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "20.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Bhopal",
+            "scope": [
+                "Site Survey with TS ",
+                "Basic Design Engineering"
+            ],
+            "year": "2017-18",
+            "client": "Manikaran Solar"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "21.jpeg",
+            "capacityValue": 1.25,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Mumbai & Bahadurgarh",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout"
+            ],
+            "year": "2018-19 & 2019-20",
+            "client": "Argo Solar Pvt. Ltd."
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "22.jpeg",
+            "capacityValue": 1.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "BVV Bagalkot, Karnataka",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "AC & DC Side Engineering"
+            ],
+            "year": "2017-18",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "23.jpeg",
+            "capacityValue": 2.0,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "PACIFIC University, Udaipur",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "Stringing Layout & DC Cable Layout"
+            ],
+            "year": "2017-18",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "24.jpeg",
+            "capacityValue": 1.6,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "IIMT & SVP University, Meerut",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout"
+            ],
+            "year": "2017-18 & 2018-19",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "25.jpeg",
+            "capacityValue": 1.2,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "RK Forging, Jamshedpur",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout"
+            ],
+            "year": "2017-18",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "26.jpeg",
+            "capacityValue": 950,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Subros Manesar, Haryana",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "AC & DC Side Engineering"
+            ],
+            "year": "2019-20",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "27.jpeg",
+            "capacityValue": 1.2,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "KIIT University, Bhubneshwar",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "String Layout"
+            ],
+            "year": "2017-18",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "28.jpeg",
+            "capacityValue": 750,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "CGL, Bhopal",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "Electrical designing (DC Side)"
+            ],
+            "year": "2018-19",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "29.jpeg",
+            "capacityValue": 1,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "MNNIT Allahabad",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "Electrical designing (DC Side)"
+            ],
+            "year": "2018-19",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "30.jpeg",
+            "capacityValue": 2.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Kochi",
+            "scope": [
+                "Design, Drawing & Calculation of Foundation for<br>• 2.5MVA Transformer<br>• 2.5 MVA Inverter<br>• 33 KV HT Panel<br>• 11 KV HT Panel<br>• 1MVA Transformer"
+            ],
+            "year": "2018-19",
+            "client": "Addwatt Power Solutions"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "31.jpeg",
+            "capacityValue": 2.7,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "North India(9 Project)",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout"
+            ],
+            "year": "2017-20",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "32.jpeg",
+            "capacityValue": 1,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Jaipur & NCR (Multiple Site)",
+            "scope": [
+                "Design & Engineering "
+            ],
+            "year": "2017-20",
+            "client": "Topzon Energy Pvt Ltd"
+        },
+        {
+            "category": "designAndEngineering",
+            "imgFile": "33.jpeg",
+            "capacityValue": 320,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "DPS Aligarh & Hatrash",
+            "scope": [
+                "Site Survey with TS ",
+                "Shadow Analysis",
+                "Array Layout",
+                "MMS & foundation Design"
+            ],
+            "year": "2017-18",
+            "client": "Kalpa Power Pvt. Ltd."
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "34.jpeg",
+            "capacityValue": 8,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Udaipur, Rajasthan",
+            "scope": [
+                "Topographic and Contour Survey of 60 Acres Land By Drone"
+            ],
+            "year": "2020-21",
+            "client": "Renew Power"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "35.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Pune, Paonta Sahib & Kolkata",
+            "scope": [
+                "Site Survey with Drone",
+                "SketchUp"
+            ],
+            "year": "2019-20 & 2020-21",
+            "client": "Renew Power"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "36.jpeg",
+            "capacityValue": 30,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Rajkot, Gujrat",
+            "scope": [
+                "Topographic and Contour Survey of 140 Acres Land "
+            ],
+            "year": "2021-22",
+            "client": "Renew Power"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "37.jpeg",
+            "capacityValue": 10,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Ground Mount",
+            "location": "Sirohi, Rajasthan",
+            "scope": [
+                "Topographic and Contour Survey"
+            ],
+            "year": "2021-21",
+            "client": "Renew Power"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "38.jpeg",
+            "capacityValue": 9.1,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Gr. Noida & Roorkee",
+            "scope": [
+                "Solar Site Survey for Collecting Data & submission of detailed report."
+            ],
+            "year": "2019-20 & 2020-21",
+            "client": "Amplus Kn One Power Pvt Ltd"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "39.jpeg",
+            "capacityValue": 5.2,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Haryana (Multiple Location)",
+            "scope": [
+                "Solar Site Survey for Collecting Data & submission of detailed report."
+            ],
+            "year": "2019-20 & 2020-21",
+            "client": "Amplus Kn One Power Pvt Ltd"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "40.jpeg",
+            "capacityValue": 2.6,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Rajasthan, Punjab & Himachal",
+            "scope": [
+                "Solar Site Survey for Collecting Data & submission of detailed report."
+            ],
+            "year": "2019-20 & 2020-21",
+            "client": "Amplus Kn One Power Pvt Ltd"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "41.jpeg",
+            "capacityValue": 789,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Sikkim",
+            "scope": [
+                "Solar Site Survey for Collecting Data & submission of detailed report."
+            ],
+            "year": "2019-20",
+            "client": "Amplus Kn One Power Pvt Ltd"
+        },
+        {
+            "category": "solarSiteSurvey",
+            "imgFile": "42.jpeg",
+            "capacityValue": 1,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "NCR & Vizianagaram AP",
+            "scope": [
+                "Site Survey with TS"
+            ],
+            "year": "2018-19",
+            "client": "ReNew Power"
+        },
+        {
+            "category": "ownersEngineering",
+            "imgFile": "43.jpeg",
+            "capacityValue": 15,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop & Ground Mount",
+            "location": "All Unit of Cparo in India",
+            "scope": [
+                "Feasibility Survey for Solar PV Power",
+                "Infrastructural Capability Assessment",
+                "Capacity Assessment Solar Installation",
+                "Power Generation estimation",
+                "Formulating the Tender and Support in Bid",
+                "Exisiting Shed Structure analysis",
+                "Power Evacuation Analysis"
+            ],
+            "year": "2017-18",
+            "client": "Caparo Power Ltd."
+        },
+        {
+            "category": "ownersEngineering",
+            "imgFile": "44.jpeg",
+            "capacityValue": 1.5,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "Delhi",
+            "scope": [
+                "Feasibility Study for PV Solar System",
+                "Capacity Estimation"
+            ],
+            "year": "2018-19",
+            "client": "Saubhagya Infratech Pvt. Ltd."
+        },
+        {
+            "category": "ownersEngineering",
+            "imgFile": "45.jpeg",
+            "capacityValue": 18,
+            "capacityUnit": "MW",
+            "capacitySuffix": "Rooftop",
+            "location": "PAN India (23 Sites)",
+            "scope": [
+                "Detailed Project Report of 23 Project"
+            ],
+            "year": "2019-20",
+            "client": "Renew Power"
+        },
+        {
+            "category": "ownersEngineering",
+            "imgFile": "46.jpeg",
+            "capacityValue": "",
+            "capacityUnit": "",
+            "capacitySuffix": "",
+            "location": "West Bangal & UP",
+            "scope": [
+                "Pre-Sale Feasibility Survey for Solar PV System with Capacity Estimation of 6 Sites"
+            ],
+            "year": "2017-18 & 2018-19",
+            "client": "Renew Power"
+        },
+        {
+            "category": "ownersEngineering",
+            "imgFile": "47.jpeg",
+            "capacityValue": 800,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Kolkata",
+            "scope": [
+                "Feasibility Study for PV Solar System",
+                "Capacity Estimation with Layout",
+                "PV Syst Report",
+                "Tentative BOQ"
+            ],
+            "year": "2018-19",
+            "client": "Solarize"
+        },
+        {
+            "category": "installationAndComissioning",
+            "imgFile": "48.jpeg",
+            "capacityValue": 674,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "PPCL, Bawana Delhi",
+            "scope": [
+                "Installation, Commissioning & Testing on Grid Solar PV Plant"
+            ],
+            "year": "2018-19",
+            "client": "Sriram Cables Pvt Ltd"
+        },
+        {
+            "category": "installationAndComissioning",
+            "imgFile": "49.jpeg",
+            "capacityValue": 300,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Lucknow University, U.P.",
+            "scope": [
+                "Installation, Commissioning & Testing on Grid Solar PV Plant"
+            ],
+            "year": "2018-19",
+            "client": "AES Noida"
+        },
+        {
+            "category": "installationAndComissioning",
+            "imgFile": "50.jpeg",
+            "capacityValue": 75,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Varanasi",
+            "scope": [
+                "Installation, Commissioning & Testing",
+                "Foundation Material Supply"
+            ],
+            "year": "2019-20",
+            "client": "Agriflow Indore"
+        },
+        {
+            "category": "installationAndComissioning",
+            "imgFile": "51.jpeg",
+            "capacityValue": 86,
+            "capacityUnit": "kW",
+            "capacitySuffix": "Rooftop",
+            "location": "Sheikh Sarai, Delhi ",
+            "scope": [
+                "Installation, Commissioning & Testing on Grid Solar PV Plant"
+            ],
+            "year": "2019-20",
+            "client": "BD Khanna Estates, Delhi"
+        }
+    ]
+}

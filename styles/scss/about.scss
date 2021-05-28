@@ -1,0 +1,70 @@
+@import './base';
+
+@include headerImage(url("/img/about/1.jpeg"), 50%, 70%);
+
+.team {
+    background-color: #eceadb;
+
+    .our-team {
+        .card {
+            background-color: #eceadb;
+            height: min-content;
+            width: min-content;
+            border: none;
+
+            img {
+                height: 20em;
+                width: 22em;
+                object-fit: cover;
+                object-position: 50% 0%;
+            }
+
+            .card-body {
+                font-size: 0.96em;
+                line-height: 1.4em;
+                padding-top: 1.25em !important;
+                padding: 0.4em;
+
+                h5 {
+                    font-size: 1.6em;
+                }
+
+                .custom-hr {
+                    width: 25%;
+                    margin-left: 1%;
+                    border: 1px solid #ababab;
+                }
+
+                .card-text {
+                    &.collapse {
+                        &:not(.show) {
+                            display: block;
+                            height: 5.8rem;
+                            overflow: hidden;
+                        }
+                    }
+
+                    &.collapsing {
+                        height: 5.8em;
+                    }
+                }
+
+                a {
+                    color: $accentDarkColor;
+
+                    &:hover {
+                        color: $accentLightColor;
+                    }
+
+                    &.collapsed::after {
+                        content: 'Read More';
+                    }
+
+                    &:not(.collapsed)::after {
+                        content: 'Read Less';
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,342 @@
+@import './base';
+
+@keyframes carouselAnimation {
+    20% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.topCarousel {
+    .carousel {
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        .carouselImg {
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+
+            &#carouselImg1 {
+                background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15) 35%, rgba(0, 0, 0, 0) 100%), url("/img/home/slide/1.jpeg");
+                background-position: 50% 0%;
+            }
+
+            &#carouselImg2 {
+                background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15) 35%, rgba(0, 0, 0, 0) 100%), url("/img/home/slide/2.jpeg");
+                background-position: 10% 25%;
+            }
+
+            &#carouselImg3 {
+                background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15) 35%, rgba(0, 0, 0, 0) 100%), url("/img/home/slide/3.jpeg");
+                background-position: 50% 0%;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slick-slide {
+            position: relative;
+        }
+
+        .slideCaption {
+            position: absolute;
+            top: 40vh;
+            left: 4vw;
+            color: $white;
+            min-height: 80px;
+            width: 65%;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            background: rgba(0, 0, 0, 0.46);
+            font-size: 1.1em;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.24);
+            z-index: 2;
+
+            h1 {
+                text-align: center;
+                font-weight: 600;
+                color: $white;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.25em;
+                font-weight: 500;
+                width: 85%;
+            }
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: 0.8em;
+        z-index: 2;
+
+        .dot {
+            height: 0.86em;
+            width: 0.86em;
+            background-color: rgba(255, 255, 255, 0.6);
+            margin: 0.4em;
+            border: none;
+            box-shadow: none;
+            border-radius: 0.2em;
+            transition: ease-out 400ms;
+
+            &.active {
+                background-color: white;
+                transition: ease-out 400ms;
+            }
+        }
+    }
+}
+
+.transparentOverCarousel {
+    background-color: rgba(0, 0, 0, 0);
+    height: 91vh;
+}
+
+.services {
+    background-color: #f3f4f8;
+
+    .col-lg-2 {
+        padding: 0em !important;
+
+
+        .card {
+            border: none;
+            border-radius: 0.4em;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+            transition: ease-out 400ms;
+
+            .fa {
+                color: $accentDarkColor;
+                align-self: center;
+            }
+
+
+            h6 {
+                font-size: 1.28em;
+                text-align: center;
+            }
+
+            .learn-more {
+                opacity: 0;
+                color: $accentDarkColor;
+                font-weight: 600;
+                text-align: center;
+                transition: ease-out 400ms;
+
+            }
+
+            &:hover {
+                box-shadow: 0px 4px 32px 4px rgba(0, 0, 0, 0.1);
+                transition: ease-out 400ms;
+
+                .learn-more {
+                    opacity: 1;
+                    transition: ease-out 400ms;
+
+                    img {
+                        color: $accentDarkColor;
+                        fill: $accentDarkColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about-img-background {
+    background: url(/img/home/about.jpeg) no-repeat;
+    background-size: cover;
+    background-position: 0% 40%;
+    height: 32em;
+    width: 100%;
+
+    .about {
+        max-height: 34em;
+        width: 67%;
+        background: whitesmoke;
+        border-radius: 0.2em;
+        overflow-y: scroll;
+
+
+        .about-text {
+            p {
+                font-size: 1.2em;
+                line-height: 1.6em;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.stats {
+    .circle {
+        border: none;
+        text-align: center;
+        background: rgba(0, 0, 0, 0);
+
+        .text {
+            color: $accentColor;
+            font-weight: 600;
+
+            .value {
+                font-size: 3.6em;
+
+            }
+
+            .unit {
+                font-size: 2.2em;
+            }
+
+            .value-label {
+                font-size: 1.4em;
+                padding-bottom: 0.6em;
+            }
+
+        }
+    }
+}
+
+.projects-background {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+        url("/img/home/parallax.jpeg");
+    background-size: cover;
+    background-position: 50% 15% !important;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .projects {
+        width: 80%;
+
+        .text-content {
+            color: $white;
+
+            h2 {
+                color: $white !important;
+            }
+
+            #projectsSlideNav {
+                button {
+                    color: $accentColor;
+                    background: rgba(0, 0, 0, 0);
+                    height: 3.2em;
+                    width: 3.2em;
+                    border: solid 2px;
+                    border-color: $accentColor;
+                    border-radius: 0.2em;
+                    margin: 0.4em;
+
+                    i {
+                        font-size: 1.6em;
+                    }
+
+                    &:hover {
+                        color: $black;
+                        background: $accentColor;
+                        transition: ease-out 400ms;
+                    }
+                }
+            }
+
+            a {
+                color: $white;
+                font-size: 1.2em;
+            }
+        }
+
+
+        .projects-slide {
+            .item {
+                img {
+                    height: 20em;
+                    width: 24em;
+                    border-radius: 0.4em;
+                    object-fit: cover;
+                    object-position: 100% 100%;
+                }
+
+                h5 {
+                    color: $white;
+                    max-width: 15em;
+                }
+            }
+        }
+    }
+}
+
+.clients {
+    background-color: #f3f4f8;
+
+    .clients-logo-slider {
+        .slick-list {
+            .slick-track {
+                display: flex !important;
+                align-items: center !important;
+
+                .slide-content {
+                    img {
+                        max-height: 8em;
+                        max-width: 10em;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.work-with-us {
+    background-color: $accentDarkColor;
+    text-transform: capitalize;
+
+    h2 {
+        color: rgb(44, 44, 44);
+        font-weight: 700;
+        width: 50%;
+        line-height: 1.6em;
+    }
+
+    a {
+        color: $white;
+        background-color: rgb(0, 33, 88);
+        box-shadow: 8px 8px black;
+        transition: ease 100ms;
+
+        &:hover {
+            color: $white;
+            transform: translate(8px, 8px);
+            box-shadow: 4px 4px black;
+            transition: ease 100ms;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .about-img-background {
+        .about {
+            .about-text {
+                margin-right: 10em;
+            }
+        }
+    }
+}

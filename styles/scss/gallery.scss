@@ -1,0 +1,27 @@
+@import './base';
+
+@include headerImage(url("/img/gallery/1.jpeg"), 50%, 50%);
+
+.gallery-item {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    padding: 0.2em;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+
+    .img-c {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    img {
+        max-height: 16em;
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
+}
