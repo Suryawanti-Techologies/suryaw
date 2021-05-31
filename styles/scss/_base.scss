@@ -12,7 +12,6 @@ html {
 
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
-    line-height: 1.64em;
     color: $black;
 }
 
@@ -28,27 +27,27 @@ h6 {
 }
 
 h1 {
-    font-size: 3.2em;
+    font-size: 3.2rem;
 }
 
 h2 {
-    font-size: 2.8em;
+    font-size: 2.8rem;
 }
 
 h3 {
-    font-size: 2.4em;
+    font-size: 2.4rem;
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 h6 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 a {
@@ -57,22 +56,22 @@ a {
 
     &:hover {
         text-decoration: none;
-        color: $accentColor;
+        color: $accentDarkColor;
         transition: ease-out 400ms;
     }
 }
 
 .navbar {
-    padding: 0;
+    padding: 0em;
     z-index: 100;
-    top: 0;
+    top: 0px;
 
     &.navbar-dark {
         background-color: rgba(0, 0, 0, 0);
     }
 
     .navbar-brand {
-        padding: 0.4em 0.7em;
+        padding: 0.4em 0.6em;
     }
 
     .navbar-toggler {
@@ -82,10 +81,10 @@ a {
     .navbar-nav {
         .nav-link {
             color: white;
-            font-size: 1.1em;
+            font-size: 1.16rem;
             font-weight: 600;
             position: relative;
-            padding: 1.4em 0.7em;
+            padding: 1.4em 0.6em;
 
 
             &.active::after {
@@ -98,18 +97,17 @@ a {
 
             &::after {
                 position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
                 margin: auto;
                 background-color: $accentColor;
                 color: transparent;
                 width: 0%;
                 content: '.';
-                height: 0.3em;
-                // border-radius: 10%;
-                border-top-left-radius: 35%;
-                border-top-right-radius: 35%;
+                height: 0.32rem;
+                border-top-left-radius: 32%;
+                border-top-right-radius: 32%;
                 transition: all 0.4s;
             }
 
@@ -121,21 +119,21 @@ a {
 }
 
 .btn {
-    font-weight: 600 !important;
-    height: 3em !important;
-    font-size: 1.1em;
-    font-weight: 900 !important;
+    font-size: 1.24rem;
+    font-weight: 800;
+    height: 2.4em;
 }
 
 .btn-primary {
-    color: $white !important;
+    color: $white;
     background-color: $accentDarkColor;
-    border-color: $accentDarkColor !important;
-    transition: ease-out 400ms !important;
+    border-color: $accentDarkColor;
+    transition: ease-out 400ms;
 
     &:hover {
         background-color: $accentColor;
-        transition: ease-out 800ms !important;
+        border-color: $accentDarkColor;
+        transition: ease-out 800ms;
     }
 }
 
@@ -143,23 +141,19 @@ a {
 #scroll-top-button {
     display: none;
     position: fixed;
-    height: 2.8em !important;
-    width: 2.8em !important;
+    height: 2.6em !important;
+    width: 2.6em !important;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 100;
-    background-color: $accentLightestColor;
+    background-color: $accentLightColor;
     color: $black;
-    padding: 0% !important;
+    padding: 0em !important;
     border-radius: 50%;
-
-    i {
-        font-size: 1.6em;
-    }
 }
 
 .custom-hr1 {
-    height: 0.2em;
+    height: 0.2rem;
     width: 10%;
     margin-left: 0%;
     border: none;
@@ -168,7 +162,7 @@ a {
 }
 
 .custom-hr2 {
-    height: 0.12em;
+    height: 0.1rem;
     margin-left: 10%;
     margin-right: 10%;
     border: none;
@@ -178,14 +172,13 @@ a {
 
 footer {
     color: $white;
-    font-size: 0.95em;
+    font-size: 0.96rem;
     background-color: rgb(33, 33, 33);
     bottom: 0;
 
     img {
-        width: 10em;
+        width: 10rem;
     }
-
 
     h5 {
         color: $accentLightColor;
@@ -209,13 +202,13 @@ footer {
         background-position: $x $y;
         z-index: 0;
         position: absolute;
-        height: 340px;
+        height: 32vh;
         width: 100%;
-        top: 0;
-        left: 0;
+        top: 0px;
+        left: 0px;
     }
 
     .headImageSpace {
-        height: 260px;
+        height: calc(32vh - 80px);
     }
 }

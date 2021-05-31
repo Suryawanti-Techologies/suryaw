@@ -2,6 +2,12 @@
 
 @include headerImage(url("/img/about/1.jpeg"), 50%, 70%);
 
+.about-us {
+    p {
+        font-size: 1.16rem;
+    }
+}
+
 .team {
     background-color: #eceadb;
 
@@ -21,12 +27,12 @@
 
             .card-body {
                 font-size: 0.96em;
-                line-height: 1.4em;
-                padding-top: 1.25em !important;
+                line-height: 1.2em;
+                margin-top: 0.25em;
                 padding: 0.4em;
 
                 h5 {
-                    font-size: 1.6em;
+                    font-size: 1.6rem;
                 }
 
                 .custom-hr {

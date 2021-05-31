@@ -7,7 +7,7 @@
     box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.2);
 
     .sidebar-sticky {
-        top: 8em;
+        top: 96px;
         position: sticky;
 
         .nav-link {
@@ -28,7 +28,6 @@
 }
 
 .service {
-    top: 6em;
 
     .image-section {
         padding: 0em;
@@ -67,15 +66,4 @@
         }
     }
 
-}
-
-@media only screen and (max-width: 1880px) {
-    .service {
-        .image-section {
-            img {
-                max-height: 16em;
-                width: 19.55em;
-            }
-        }
-    }
 }
