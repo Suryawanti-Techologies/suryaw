@@ -47,7 +47,7 @@ $.getJSON("../projects/projects.json", function (data) {
         }
 
         cardHtml = `
-        <div class="col-lg-4">
+        <div class="col-10 col-sm-9 col-md-6 col-lg-4 col-xl-4">
             <div class="img-container mt-5">
                 <img src="/img/projects/projects/${data.projects[i].imgFile}" alt="">
                 <div class="overlay">
@@ -83,54 +83,21 @@ $.getJSON("../projects/projects.json", function (data) {
 
         switch (data.projects[i].category) {
             case "designAndEngineering":
-                designAndEngineeringContainer.append(row0);
-                row0.innerHTML += cardHtml;
-                colCount[0]++;
-
-                if (colCount[0] > 2) {
-                    row0 = row0.cloneNode(true);
-                    row0.innerHTML = '';
-                    colCount[0] = 0;
-                }
-
+                designAndEngineeringContainer.firstElementChild.innerHTML += cardHtml;
                 break;
 
             case "solarSiteSurvey":
-                solarSiteSurveyContainer.append(row1);
-                row1.innerHTML += cardHtml;
-                colCount[1]++;
-
-                if (colCount[1] > 2) {
-                    row1 = row1.cloneNode(true);
-                    row1.innerHTML = '';
-                    colCount[1] = 0;
-                }
-
+                solarSiteSurveyContainer.firstElementChild.innerHTML += cardHtml;
                 break;
+
             case "installationAndComissioning":
-                installationAndComissioningContainer.append(row2);
-                row2.innerHTML += cardHtml;
-                colCount[2]++;
-
-                if (colCount[2] > 2) {
-                    row2 = row2.cloneNode(true);
-                    row2.innerHTML = '';
-                    colCount[2] = 0;
-                }
-
+                installationAndComissioningContainer.firstElementChild.innerHTML += cardHtml;
                 break;
+
             case "ownersEngineering":
-                ownersEngineeringContainer.append(row3);
-                row3.innerHTML += cardHtml;
-                colCount[3]++;
-
-                if (colCount[3] > 2) {
-                    row3 = row3.cloneNode(true);
-                    row3.innerHTML = '';
-                    colCount[3] = 0;
-                }
-
+                ownersEngineeringContainer.firstElementChild.innerHTML += cardHtml;
                 break;
+
             default:
                 break;
         }

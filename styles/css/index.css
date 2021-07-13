@@ -286,7 +286,7 @@ footer a:hover {
 
 .topCarousel .slick-dots {
   position: absolute;
-  bottom: 2%;
+  top: 95vh;
   z-index: 2;
 }
 
@@ -318,11 +318,11 @@ footer a:hover {
   background-color: #f3f4f8;
 }
 
-.services .col-lg-2 {
+.services .col-xl-2 {
   padding: 0em !important;
 }
 
-.services .col-lg-2 .card {
+.services .col-xl-2 .card {
   border: none;
   border-radius: 8px;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.06);
@@ -331,19 +331,19 @@ footer a:hover {
   transition: ease-out 400ms;
 }
 
-.services .col-lg-2 .card .fa {
+.services .col-xl-2 .card .fa {
   color: #ebb000;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.services .col-lg-2 .card h6 {
+.services .col-xl-2 .card h6 {
   font-size: 1.32rem;
   text-align: center;
 }
 
-.services .col-lg-2 .card .learn-more {
+.services .col-xl-2 .card .learn-more {
   opacity: 0;
   color: #ebb000;
   font-weight: 600;
@@ -352,20 +352,20 @@ footer a:hover {
   transition: ease-out 400ms;
 }
 
-.services .col-lg-2 .card:hover {
+.services .col-xl-2 .card:hover {
   -webkit-box-shadow: 0px 4px 32px 4px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 32px 4px rgba(0, 0, 0, 0.16);
   -webkit-transition: ease-out 400ms;
   transition: ease-out 400ms;
 }
 
-.services .col-lg-2 .card:hover .learn-more {
+.services .col-xl-2 .card:hover .learn-more {
   opacity: 1;
   -webkit-transition: ease-out 400ms;
   transition: ease-out 400ms;
 }
 
-.services .col-lg-2 .card:hover .learn-more img {
+.services .col-xl-2 .card:hover .learn-more img {
   color: #ebb000;
   fill: #ebb000;
 }
@@ -383,7 +383,7 @@ footer a:hover {
   width: 67%;
   background: whitesmoke;
   border-radius: 8px;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .about-img-background .about .about-text p {
@@ -513,7 +513,6 @@ footer a:hover {
 .work-with-us h2 {
   color: #2c2c2c;
   font-weight: 700;
-  width: 50%;
   line-height: 1.6em;
 }
 
@@ -534,4 +533,108 @@ footer a:hover {
           box-shadow: 4px 4px black;
   -webkit-transition: ease 100ms;
   transition: ease 100ms;
+}
+
+@media only screen and (max-width: 1759.99px) and (min-width: 1200px) {
+  .projects {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .projects .col-xl-4 {
+    max-width: 48%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .projects .col-xl-7 {
+    max-width: 52%;
+  }
+}
+
+@media only screen and (max-width: 991.99px) {
+  .topCarousel .carousel .carouselImg {
+    height: 75vh;
+  }
+  .topCarousel .carousel .slideCaption {
+    width: 80%;
+  }
+  .topCarousel .slick-dots {
+    top: 70vh;
+  }
+  .transparentOverCarousel {
+    height: calc(75vh - 80px);
+  }
+  .about-img-background .about {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 767.99px) {
+  .topCarousel .carousel .carouselImg {
+    height: 65vh;
+  }
+  .topCarousel .carousel .slideCaption {
+    width: 90%;
+  }
+  .topCarousel .slick-dots {
+    top: 62vh;
+  }
+  .transparentOverCarousel {
+    height: calc(65vh - 80px);
+  }
+}
+
+@media only screen and (max-width: 575.99px) {
+  .topCarousel .carousel .carouselImg {
+    height: 55vh;
+  }
+  .topCarousel .carousel .slideCaption h1 {
+    font-size: 2.4em;
+  }
+  .topCarousel .carousel .slideCaption p {
+    display: none;
+  }
+  .topCarousel .slick-dots {
+    top: 50vh;
+  }
+  .transparentOverCarousel {
+    height: calc(55vh - 80px);
+  }
+  .about-img-background {
+    height: 36em;
+  }
+  .about-img-background .about {
+    width: 100%;
+    opacity: 0.92;
+  }
+  .projects .col-xl-7 {
+    margin-left: -2.4em;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .topCarousel .carousel .slideCaption {
+    top: 28%;
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .topCarousel .carousel .slideCaption {
+    top: 25%;
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-height: 1024px) {
+  .topCarousel .carousel .carouselImg {
+    height: 1024px;
+  }
+  .topCarousel .slick-dots {
+    top: 980px;
+  }
+  .transparentOverCarousel {
+    height: calc(1024px - 80px);
+  }
 }

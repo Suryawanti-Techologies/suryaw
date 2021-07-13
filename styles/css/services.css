@@ -267,3 +267,9 @@ footer a:hover {
 .service .text-section p {
   line-height: 1.4em;
 }
+
+@media screen and (min-width: 1200px) {
+  .container-xl-fluid {
+    max-width: 100% !important;
+  }
+}

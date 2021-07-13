@@ -25,3 +25,11 @@
         object-position: 50% 0%;
     }
 }
+
+@media screen and (max-width: 767.99px) {
+    .gallery-item {
+        img {
+            max-height: 24em;
+        }
+    }
+}

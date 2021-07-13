@@ -16,7 +16,6 @@ $(".dot").each(function (index, element) {
     })
 });
 $('.carousel').on('afterChange', function (event, slick, currentSlide, nextSlide) {
-    console.log(currentSlide);
     $(".dot").each(function (index, element) {
         $(this).removeClass("active");
     });
@@ -42,7 +41,7 @@ $('.projects-slide').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [{
-        breakpoint: 1684,
+        breakpoint: 1760,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

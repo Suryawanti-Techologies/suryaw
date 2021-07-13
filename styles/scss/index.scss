@@ -56,7 +56,6 @@
             top: 40%;
             left: 5%;
             color: $white;
-            // min-height: 80px;
             width: 65%;
             padding: 1em 0em;
             margin: auto;
@@ -83,7 +82,7 @@
 
     .slick-dots {
         position: absolute;
-        bottom: 2%;
+        top: 95vh;
         z-index: 2;
 
         .dot {
@@ -106,14 +105,13 @@
 
 .transparentOverCarousel {
     background-color: rgba(0, 0, 0, 0);
-    // height: 91vh;
     height: calc(100vh - 80px);
 }
 
 .services {
     background-color: #f3f4f8;
 
-    .col-lg-2 {
+    .col-xl-2 {
         padding: 0em !important;
 
 
@@ -173,7 +171,7 @@
         width: 67%;
         background: whitesmoke;
         border-radius: 8px;
-        overflow-y: scroll;
+        overflow-y: hidden;
 
 
         .about-text {
@@ -315,7 +313,6 @@
     h2 {
         color: rgb(44, 44, 44);
         font-weight: 700;
-        width: 50%;
         line-height: 1.6em;
     }
 
@@ -331,5 +328,153 @@
             box-shadow: 4px 4px black;
             transition: ease 100ms;
         }
+    }
+}
+
+@media only screen and (max-width: 1759.99px) and (min-width: 1200px) {
+    .projects {
+        justify-content: center !important;
+
+        .col-xl-4 {
+            max-width: 48%;
+            flex: none;
+        }
+
+        .col-xl-7 {
+            max-width: 52%;
+        }
+    }
+}
+
+@media only screen and (max-width: 991.99px) {
+    .topCarousel {
+        .carousel {
+            .carouselImg {
+                height: 75vh;
+            }
+
+            .slideCaption {
+                width: 80%;
+            }
+        }
+
+        .slick-dots {
+            top: 70vh;
+        }
+    }
+
+    .transparentOverCarousel {
+        height: calc(75vh - 80px);
+    }
+
+    .about-img-background {
+        .about {
+            width: 86%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767.99px) {
+    .topCarousel {
+        .carousel {
+            .carouselImg {
+                height: 65vh;
+            }
+
+            .slideCaption {
+                width: 90%;
+            }
+        }
+
+        .slick-dots {
+            top: 62vh;
+        }
+    }
+
+    .transparentOverCarousel {
+        height: calc(65vh - 80px);
+    }
+}
+
+@media only screen and (max-width: 575.99px) {
+    .topCarousel {
+        .carousel {
+            .carouselImg {
+                height: 55vh;
+            }
+
+            .slideCaption {
+                h1 {
+                    font-size: 2.4em;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+        }
+
+        .slick-dots {
+            top: 50vh;
+        }
+    }
+
+    .transparentOverCarousel {
+        height: calc(55vh - 80px);
+    }
+
+    .about-img-background {
+        height: 36em;
+
+        .about {
+            width: 100%;
+            opacity: 0.92;
+        }
+    }
+
+    .projects {
+        .col-xl-7 {
+            margin-left: -2.4em;
+        }
+    }
+}
+
+@media screen and (max-height:720px) {
+    .topCarousel {
+        .carousel {
+            .slideCaption {
+                top: 28%;
+                width: 80% !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-height:570px) {
+    .topCarousel {
+        .carousel {
+            .slideCaption {
+                top: 25%;
+                width: 90% !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-height:1024px) {
+    .topCarousel {
+        .carousel {
+            .carouselImg {
+                height: 1024px;
+            }
+        }
+
+        .slick-dots {
+            top: 980px;
+        }
+    }
+
+    .transparentOverCarousel {
+        height: calc(1024px - 80px);
     }
 }
